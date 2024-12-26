@@ -1,5 +1,5 @@
 import requests
-from utils import github_api_request, BASE_URL, GITHUB_TOKEN
+from .utils import github_api_request, BASE_URL, GITHUB_TOKEN
 
 def create_pull_request(title, body, head, base):
     """Create a pull request on GitHub."""

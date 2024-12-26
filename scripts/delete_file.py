@@ -1,4 +1,4 @@
-from utils import github_api_request
+from .utils import github_api_request
 
 def delete_file(path, message):
     # Get file SHA
